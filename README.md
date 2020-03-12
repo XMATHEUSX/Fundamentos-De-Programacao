@@ -1,2 +1,2 @@
-# Fundamentos_De_Programa-o
+# Fundamentos De Programação
 Atividades Desenvolvidas Durante a Disciplina de Fundamentos De Programação
