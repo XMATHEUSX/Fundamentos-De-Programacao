@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+float i = 0,x = 0;
+printf("insira dois numeros separados por espaço para calcular a sua media: ");
+scanf(" %f %f",&i,&x);
+printf("Resultado: %.2f\n",(i+x)/2);
+return 0;
+}
