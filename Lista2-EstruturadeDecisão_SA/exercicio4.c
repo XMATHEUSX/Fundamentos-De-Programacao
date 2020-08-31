@@ -5,7 +5,7 @@ int main(void)
 {
     char a;
     float peso_ideal = 0, altura = 0;
-    printf("Qual o seu Gênero : ");
+    printf("Qual o seu Genero : ");
     scanf("%c", &a);
     a = toupper(a);
     if (a == 'F')
@@ -23,11 +23,11 @@ int main(void)
     else
     {
 
-        printf("Desculpe insira um Gênero Válido (M/F)");
+        printf("Desculpe insira um Genero Valido (M/F)");
         return 0;
     }
 
-    printf("Seu Peso ideal eh %3.2f Kg", peso_ideal);
+    printf("Seu Peso ideal eh %.2f Kg", peso_ideal);
 
     return 0;
 }
