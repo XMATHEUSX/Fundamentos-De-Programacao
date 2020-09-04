@@ -4,7 +4,7 @@ int main(void)
 {
     char numero = 'a', numero2 = 'a';
     printf("Saldo em conta corrente:");
-    scanf("%c", &numero);
+    scanf(" %c", &numero);
     numero = toupper(numero);
     if (numero == 'P')
     {
@@ -14,8 +14,7 @@ int main(void)
     {
         printf("Saldo em conta corrente:");
 
-        scanf("%c", &numero2);
-        scanf("%c", &numero2);
+        scanf(" %c", &numero2);
 
         numero2 = toupper(numero2);
         if (numero2 == 'S')

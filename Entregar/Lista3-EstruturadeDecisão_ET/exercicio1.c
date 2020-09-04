@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <locale.h>
+
 int main(void)
 {
-    int e,h,cg,mp;
-    printf("exatas?");
+    setlocale(LC_ALL, "Portuguese");
+    int e, h, cg, mp;
+    printf("Nota de exatas?");
     scanf("%d", &e);
-    printf("humanas?");
+    printf("Nota de humanas?");
     scanf("%d", &h);
-    printf("conhecimentos gerais?");
+    printf("Nota em conhecimentos gerais?");
     scanf("%d", &cg);
     mp = ((e * 3) + (h * 2) + cg) / 6;
     printf("rendimento do candidato = ");
@@ -31,6 +34,6 @@ int main(void)
     {
         printf("Excelente");
     }
-    
-     return 0;
+
+    return 0;
 }

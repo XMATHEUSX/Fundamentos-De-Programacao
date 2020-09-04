@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <locale.h>
 int main(void)
-{
+{   setlocale(LC_ALL,"Portuguese");
     int num1, num2, resto;
     printf("Informe o primeiro valor:");
     scanf("%d", &num1);
@@ -9,7 +10,7 @@ int main(void)
 
     if (num1 == 0 || num2 == 0)
     {
-        printf("Nao eh possivel realizar divisao por zero\n");
+        printf("Nao é possivel realizar divisao por zero\n");
         return 0;
     }
     else if (num1 > num2)
@@ -20,6 +21,6 @@ int main(void)
     {
         resto = num2 % num1;
     }
-    printf("O resto da divisao eh %d \n", resto);
+    printf("O resto da divisao é %d \n", resto);
     return 0;
 }
