@@ -36,4 +36,5 @@ int main(void)
         }
     }
     printf("\nMedia dos numeros divisiveis por 7 e por 11 do intervalo : %.2f", (media / onze));
+    return 0;
 }
