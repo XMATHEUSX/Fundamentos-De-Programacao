@@ -12,28 +12,35 @@ int main(void)
             produto = 1;
         }
     } while (d <= 2);
-    printf("Todos os numero pares entre 2 e %d:", d);
-    for (i = 2; i <= d; i = i + 2)
+    printf("Todos os numero pares entre 2 e %d: ", d);
+    for (i = 3; i < d; i++)
     {
-        printf("%d\t", i);
+        if (i % 2 == 0)
+        {
+            printf("%4d", i);
+        }
     }
-    for (i = 2; i <= d; i = i + 2)
+    for (i = 3; i < d; i++)
     {
-        soma += i;
+        if (i % 2 == 0)
+        {
+            soma += i;
+        }
     }
     printf("\nSoma dos numero pares entre 2 e %d: %d\n", d, soma);
-    for (i = 3; i <= d; i = i + 2)
+    for (i = 3; i < d; i = i + 2)
     {
         if (i % 9 == 0)
         {
             produto *= i;
         }
     }
-    printf("produto dos numero impares entre 2 e %d que são divisiveis por 9: %d\n", d, produto);
-    for (i = 2; i <= d; i++)
+    printf("Produto dos numero impares entre 2 e %d que sao divisiveis por 9: %d\n", d, produto);
+    for (i = 3; i < d; i++)
     {
         media += i;
     }
     media = media / d;
-    printf("media de todos os numero do intervalo entre 2 e %d: %.2f ", d, media);
+    printf("Media de todos os numero do intervalo entre 2 e %d: %.2f ", d, media);
+    return 0;
 }

@@ -2,8 +2,9 @@
 int main(void)
 {
     int i = 0;
-    for (i = 5; i <= 50; i = i+5)
+    for (i = 10; i < 50; i = i + 5)
     {
-        printf("%d\t",i);
+        printf("%d\t", i);
     }
+    return 0;
 }

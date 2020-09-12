@@ -3,7 +3,7 @@ int main(void)
 {
     int a = 0, impar_3 = 0, x = 0;
     float par_5 = 0;
-    for (a = 100; a <= 200; a++)
+    for (a = 101; a < 200; a++)
     {
         printf("%d\t", a);
 
@@ -19,4 +19,5 @@ int main(void)
     }
     printf("\nQuantidade de numeros impares não divisiveis por 3 no intervalo : %d\n", impar_3);
     printf("Media dos numeros pares divisiveis por 5 do intervalo : %.2f", (par_5 / x));
+    return 0;
 }

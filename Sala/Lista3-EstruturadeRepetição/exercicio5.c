@@ -5,7 +5,7 @@ int main(void)
     int a = 0, b = 0, x = 0, y = 0;
     float media;
 
-    for (a = 200; a > 0; a--)
+    for (a = 199; a > 1; a--)
     {
         if (a % 2 == 1 && a % 5 != 0)
             printf("%d\t", a);
@@ -17,4 +17,5 @@ int main(void)
     }
     media = media / x;
     printf("\nmedia %.2f", media);
+    return 0;
 }

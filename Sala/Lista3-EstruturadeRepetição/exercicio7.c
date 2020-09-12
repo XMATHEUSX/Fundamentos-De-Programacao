@@ -23,4 +23,5 @@ int main(void)
     printf("Quantidade de numeros pares inseridos: %d\n", par);
     printf("Quantidade de numeros impares inseridos: %d\n", impar);
     printf("Quantidade de numeros divisiveis por 7 inseridos:%d", sete);
+    return 0;
 }

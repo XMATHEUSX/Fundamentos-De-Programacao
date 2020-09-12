@@ -10,4 +10,5 @@ int main(void)
         soma += (1 / i);
     }
     printf("Soma = %.2f ", soma);
+    return 0;
 }

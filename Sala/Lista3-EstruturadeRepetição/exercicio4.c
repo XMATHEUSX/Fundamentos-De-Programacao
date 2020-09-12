@@ -29,4 +29,5 @@ int main(void)
                 printf("%d\t", a);
         }
     }
+    return 0;
 }

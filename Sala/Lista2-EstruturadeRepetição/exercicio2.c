@@ -10,6 +10,6 @@ int main(void)
     {
         fat *= i;
     }
-    printf("%lld", fat);
+    printf("O fatorial de %d eh : %lld", d, fat);
     return 0;
 }

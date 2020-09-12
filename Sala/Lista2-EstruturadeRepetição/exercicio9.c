@@ -45,4 +45,5 @@ int main(void)
     printf("\nQuantidade de numeros entre 10 e 100: %d", num3);
     printf("\nQuantidade de vezes que eh informado o numero 30: %d", trinta);
     printf("\nQuantidade de vezes que eh informado um numero diferente de 10, de 20 e de 30: %d", ntrinta);
+    return 0;
 }

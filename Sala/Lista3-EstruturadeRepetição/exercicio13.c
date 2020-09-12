@@ -2,7 +2,7 @@
 int main(void)
 {
     int qtd = 0, i, oito = 1;
-    for (i = 1000; i >= 0; i--)
+    for (i = 999; i > 0; i--)
     {
         if (i % 10 == 0)
         {
@@ -22,4 +22,5 @@ int main(void)
             }
         }
     }
+    return 0;
 }

@@ -2,8 +2,9 @@
 int main(void)
 {
     float i = 0;
-    for (i = 0; i <= 4; i = i+0.25)
+    for (i = 0.25; i < 4; i = i + 0.25)
     {
-        printf("%.2f\t",i);
+        printf("%.2f\t", i);
     }
+    return 0;
 }

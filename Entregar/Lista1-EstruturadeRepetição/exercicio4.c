@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 int main(void)
 {
+
     int i, d = 0, soma = 0, soma2 = 0, soma3 = 0, somatotal = 0;
     for (i = 0; i < 30; i++)
     {
@@ -20,8 +22,9 @@ int main(void)
         }
         somatotal += d;
     }
-    printf("A soma dos 10 primeiros números: %d\n", soma);
-    printf("A soma do 11º número até o 20º número: %d\n", soma2);
-    printf("A soma do 21º número até o 30º número: %d\n", soma3);
-    printf("A soma de todos os números %d\n", somatotal);
+    printf("A soma dos dez primeiros numeros: %d\n", soma);
+    printf("A soma do decimo primeiro número ate o vigesimo numero: %d\n", soma2);
+    printf("A soma do vigesimo primeiro número ate o trigesimo numero: %d\n", soma3);
+    printf("A soma de todos os numeros %d\n", somatotal);
+    return 0;
 }

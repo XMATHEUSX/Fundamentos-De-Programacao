@@ -10,4 +10,5 @@ int main(void)
     {
         printf("R$ %-20.2f\tR$ %.2f\n", i, (qtd * i));
     }
+    return 0;
 }

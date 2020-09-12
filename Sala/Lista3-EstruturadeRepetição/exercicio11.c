@@ -26,6 +26,5 @@ int main(void)
         printf("nao eh primo");
     }
 
-    //printf("\nQuantidade de numeros impares não divisiveis por 3 no intervalo : %d\n", impar_3);
-    //printf("Media dos numeros pares divisiveis por 5 do intervalo : %.2f", 10(par_5 / x));
+    return 0;
 }

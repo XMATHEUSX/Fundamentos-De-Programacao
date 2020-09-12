@@ -31,6 +31,6 @@ int main(void)
             }
             printf("%d\n", i);
         }
-    printf("A media dos numero impares que são divisiveis por 35 eh : %.2f", media);
+    printf("A media dos numero impares que sao divisiveis por 35 eh : %.2f", media);
     return 0;
 }
